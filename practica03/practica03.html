@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+            <!--dIV ÉS UN ELEMENT COMÚ DE L'ESTRUCTURA HTML, S'UTILITZA COM A CONTENIDOR per separar per grups-->
+            <div class="header-logo">
+                <img src="img/logokdn.jpg" alt="logo KDN">
+            </div>
+            <div class="header-xarxes"> 
+                 <!--a (hiperlink) s'utilitza quan volem afegir in link un elemt a clicar que et porti a altre lloc-->
+                <a href="https://www.linkedin.com/feed/" target="_blank">
+                    LinkedIn
+                    <img src="img/LOGOINK.png" alt="logo LinkedIn"> <!--el alt se pone siempre q queremos poner imagen-->
+                </a>
+                <a href="https://x.com/" target="_blank">
+                    Twitter
+                    <img src="img/logotwitter.png" alt="logo Twitter">
+                </a>
+            </div>
+            <nav> <!--nav és per navegació dins de la mateixa web-->
+                <a href="inici.html">Inici</a>
+                <a href="presentacio.html">Presentacio</a>
+                <a href="practiques.html">Practiques</a>
+                <a href="cv.html">CV</a>
+                <a href="contacte">Contacte</a>
+            </nav>
+        </header>
+    
+        <section>
+            <h2>Contacta amb nosaltres</h2>
+            <form>
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom">
+
+                <label for="nom">Correu:</label>
+                <input type="email" id="email" name="email"> <!--etiqueta input para añadir info a la cajita-->
+
+                <label for="motiu">Motiu:</label>
+                <select id="motiu" name="motiu">
+                    <option value="consultar">Consulta</option>
+                    <option value="feedback">Feedback</option>
+                    <option value="altres">Altres</option>
+                </select>
+
+                <label for="missatge">Missatge:</label>
+                <textarea id="missatge" name="missatge" rows="4" cols="50"></textarea>
+
+                <button type="submit">Envia</button>
+            </form>
+        </section>
+
+        <aside>
+            <h3>Articles relacionats</h3>
+            <ul>
+                <li><a href="article1.html">5 consells per millorar la teva productivitat</a></li>
+                <li><a href="article2.html">Com gestionar el teu temps de manera eficient</a></li>
+                <li><a href="article3.html">Eines digitals per treballar des de casa</a></li>
+            </ul>
+        </aside>
+<footer>
+
+    <div class="header-logo">
+        <img src="img/logokdn.jpg" alt="logo KDN" height="100">
+    </div>
+
+    <nav class="footer-nav">
+        <ul>
+            <li><a href="index.html">Inici</a></li>
+            <li><a href="presentacio.html">Presentació</a></li>
+            <li><a href="practiques.html">Pràctiques</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="contacte.html">Contacte</a></li>
+           
+        </ul>
+    </nav>
+      <!-- Mapa de la web -->
+      <div class="footer-webmap">
+        <a href="webmap.xml" aria-label="Mapa de la web">Mapa de la web</a>
+    </div>
+
+    <p>Contacta amb nosaltres: info@contacta.com</p>
+    <p>Segueix-nos a les xarxes socials: Facebook | Twitter | Instagram</p>
+
+     <!-- Text de copyright -->
+     <div class="footer-copyright">
+        <p>&copy; 2024 Klimax Dance Nation. Tots els drets reservats.</p>
+        <p style ="color: lightcoral;" >NAGORE IBAÑEZ MARTINEZ</p>
+    </div>
+    <head>
+        <style>
+            body {
+                background-color: lightskyblue;
+                
+             }
+        </style>
+    </head>
+
+  </footer>
+</body>
+</html>
